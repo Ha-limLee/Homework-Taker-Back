@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@client/*": ["../client/*"]
+        },
+        "target": "ES6",
+        "module": "commonjs",
+        "rootDir": "./src",
+        "outDir": "./build",
+        "strict": true,
+        "esModuleInterop": true
+    }
+}
